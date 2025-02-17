@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% assets "css_all" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+    <link rel="icon" href="../static/pokeball.png" />
+    <title>{% block title %}Liste des pokémons{% endblock %}</title>
+</head>
+<body>
+    {% block content %}{% endblock %}
+
+    {% assets "js_all" %}
+        <script src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+</body>
+</html>

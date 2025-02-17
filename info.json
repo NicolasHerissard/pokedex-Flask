@@ -1,0 +1,1912 @@
+{
+    "data": [
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 23.75928934999998
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0014817999999650056,
+                        "r_10_mb": 0.016233497999962765,
+                        "r_100_mb": 0.11926438599999756,
+                        "r_1000_mb": 0.567881433000025
+                    },
+                    "write": {
+                        "w_1_mb": 0.02228939700000865,
+                        "w_10_mb": 0.1403518829999939,
+                        "w_100_mb": 1.08571006599999,
+                        "w_1000_mb": 12.364417118999995
+                    }
+                }
+            },
+            "computer": "ee0c27f2-b870-449b-8709-46a7f7ed7410",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sdc",
+                        "total": 1081101176832
+                    },
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/mnt/wslg/distro",
+                        "name": "/dev/sdc",
+                        "total": 1081101176832
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 2147483648
+                    },
+                    "virtual": {
+                        "total": 8269004800
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 0.0,
+                    "logical_cores": 8,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.15.90.1-microsoft-standard-WSL2",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.8.10"
+            },
+            "system": {
+                "boot_time": 1680719483.0
+            },
+            "usage": {
+                "cpu": 12.0,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 2338734080
+                    },
+                    {
+                        "mountpoint": "/mnt/wslg/distro",
+                        "used": 2338734080
+                    }
+                ],
+                "memory": 6.9,
+                "power": "battery",
+                "battery_percent": 21.0
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 16.08977342
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.00035090000000082,
+                        "r_10_mb": 0.0033564999999953216,
+                        "r_100_mb": 0.024847699999980932,
+                        "r_1000_mb": 0.23941529999999034
+                    },
+                    "write": {
+                        "w_1_mb": 0.03725879999998938,
+                        "w_10_mb": 0.3341762000000017,
+                        "w_100_mb": 3.3127792999999883,
+                        "w_1000_mb": 29.793785800000023
+                    }
+                }
+            },
+            "computer": "b2318be9-87f6-40f6-b145-556fd15b91ae",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sdb",
+                        "total": 269490393088
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 4294967296
+                    },
+                    "virtual": {
+                        "total": 16749608960
+                    }
+                },
+                "processor": {
+                    "cores": 6,
+                    "frequency": 0.0,
+                    "logical_cores": 12,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.10.16.3-microsoft-standard-WSL2",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.10.6"
+            },
+            "system": {
+                "boot_time": 1680719824.0
+            },
+            "usage": {
+                "cpu": 8.0,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 2344538112
+                    }
+                ],
+                "memory": 2.4,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 19.976182680064813
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0006921999156475067,
+                        "r_10_mb": 0.004823900060728192,
+                        "r_100_mb": 0.06114719994366169,
+                        "r_1000_mb": 0.5821227000560611
+                    },
+                    "write": {
+                        "w_1_mb": 0.004754299996420741,
+                        "w_10_mb": 0.05485629988834262,
+                        "w_100_mb": 0.5483558000996709,
+                        "w_1000_mb": 4.092032300075516
+                    }
+                }
+            },
+            "computer": "e1d9ccd5-1851-4154-8c5d-6703c4f59e44",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 510745636864
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 3087007744
+                    },
+                    "virtual": {
+                        "total": 16948453376
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 2496.0,
+                    "logical_cores": 8,
+                    "name": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "11",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.12.0"
+            },
+            "system": {
+                "boot_time": 1697219816.1988442
+            },
+            "usage": {
+                "cpu": 11.1,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 87115157504
+                    }
+                ],
+                "memory": 55.0,
+                "power": "battery",
+                "battery_percent": 28
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 8.343301841799985
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0016188750005312613,
+                        "r_10_mb": 0.00605833299960068,
+                        "r_100_mb": 0.06064883299950452,
+                        "r_1000_mb": 0.46283404199948563
+                    },
+                    "write": {
+                        "w_1_mb": 0.002620209000269824,
+                        "w_10_mb": 0.023262000000613625,
+                        "w_100_mb": 0.20286195799963025,
+                        "w_1000_mb": 2.0027847499995914
+                    }
+                }
+            },
+            "computer": "dc61cbd3-d94f-42b1-ab28-1db484f859e0",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/",
+                        "name": "/dev/disk3s1s1",
+                        "total": 245107195904
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/VM",
+                        "name": "/dev/disk3s6",
+                        "total": 245107195904
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/Preboot",
+                        "name": "/dev/disk3s2",
+                        "total": 245107195904
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/Update",
+                        "name": "/dev/disk3s4",
+                        "total": 245107195904
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/xarts",
+                        "name": "/dev/disk1s2",
+                        "total": 524288000
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/iSCPreboot",
+                        "name": "/dev/disk1s1",
+                        "total": 524288000
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/Hardware",
+                        "name": "/dev/disk1s3",
+                        "total": 524288000
+                    },
+                    {
+                        "fstype": "apfs",
+                        "mountpoint": "/System/Volumes/Data",
+                        "name": "/dev/disk3s5",
+                        "total": 245107195904
+                    },
+                    {
+                        "fstype": "nullfs",
+                        "mountpoint": "/private/var/folders/mq/pbkhn5hs74s1hn9qqb4_n5nr0000gn/T/AppTranslocation/6CED67CC-55AB-4718-BD67-9EA2786423B3",
+                        "name": "/Users/jules/Downloads/Visual Studio Code.app",
+                        "total": 245107195904
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 0
+                    },
+                    "virtual": {
+                        "total": 17179869184
+                    }
+                },
+                "processor": {
+                    "cores": 8,
+                    "frequency": 0,
+                    "logical_cores": 8,
+                    "name": "arm"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "23.0.0",
+                "system": "Darwin"
+            },
+            "python": {
+                "version": "3.11.5"
+            },
+            "system": {
+                "boot_time": 1698305536.0
+            },
+            "usage": {
+                "cpu": 14.9,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 9822445568
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/VM",
+                        "used": 20480
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/Preboot",
+                        "used": 5667147776
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/Update",
+                        "used": 18968576
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/xarts",
+                        "used": 6311936
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/iSCPreboot",
+                        "used": 6410240
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/Hardware",
+                        "used": 1777664
+                    },
+                    {
+                        "mountpoint": "/System/Volumes/Data",
+                        "used": 186274656256
+                    },
+                    {
+                        "mountpoint": "/private/var/folders/mq/pbkhn5hs74s1hn9qqb4_n5nr0000gn/T/AppTranslocation/6CED67CC-55AB-4718-BD67-9EA2786423B3",
+                        "used": 186434506752
+                    }
+                ],
+                "memory": 54.0,
+                "power": "external power",
+                "battery_percent": 44
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 21.322008800000184
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.000535300001502037,
+                        "r_10_mb": 0.006002100009936839,
+                        "r_100_mb": 0.05965680000372231,
+                        "r_1000_mb": 0.48039959999732673
+                    },
+                    "write": {
+                        "w_1_mb": 0.007507000002078712,
+                        "w_10_mb": 0.07639390000258572,
+                        "w_100_mb": 1.1931556000199635,
+                        "w_1000_mb": 13.400602399982745
+                    }
+                }
+            },
+            "computer": "f9e6ad5f-cad4-4398-a1fa-fcea9a140539",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 127241547776
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "D:\\",
+                        "name": "D:\\",
+                        "total": 1000203087872
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 1073741824
+                    },
+                    "virtual": {
+                        "total": 17014509568
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 2304.0,
+                    "logical_cores": 8,
+                    "name": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.10.0"
+            },
+            "system": {
+                "boot_time": 1698060516.515368
+            },
+            "usage": {
+                "cpu": 11.9,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 84430782464
+                    },
+                    {
+                        "mountpoint": "D:\\",
+                        "used": 54979637248
+                    }
+                ],
+                "memory": 44.5,
+                "power": "external power",
+                "battery_percent": 96
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 34.35375556871295
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0015989728271961212,
+                        "r_10_mb": 0.016929008066654205,
+                        "r_100_mb": 0.16074979305267334,
+                        "r_1000_mb": 1.4628933444619179
+                    },
+                    "write": {
+                        "w_1_mb": 0.010349489748477936,
+                        "w_10_mb": 0.09585177153348923,
+                        "w_100_mb": 1.0744605362415314,
+                        "w_1000_mb": 10.23453813418746
+                    }
+                }
+            },
+            "computer": "17493a2c-eb4f-4a41-bcb5-6071377ab68e",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sda1",
+                        "total": 20629221376
+                    },
+                    {
+                        "fstype": "vfat",
+                        "mountpoint": "/boot/efi",
+                        "name": "/dev/sda15",
+                        "total": 109422592
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/snapd/18357",
+                        "name": "/dev/loop7",
+                        "total": 52297728
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/lxd/24483",
+                        "name": "/dev/loop4",
+                        "total": 149291008
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core20/1828",
+                        "name": "/dev/loop5",
+                        "total": 66453504
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core18/2714",
+                        "name": "/dev/loop0",
+                        "total": 58327040
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/snapd/18596",
+                        "name": "/dev/loop8",
+                        "total": 52297728
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core20/1852",
+                        "name": "/dev/loop2",
+                        "total": 66453504
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/lxd/24643",
+                        "name": "/dev/loop10",
+                        "total": 170917888
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core22/583",
+                        "name": "/dev/loop3",
+                        "total": 76546048
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core18/2721",
+                        "name": "/dev/loop6",
+                        "total": 58327040
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core22/607",
+                        "name": "/dev/loop1",
+                        "total": 76546048
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 0
+                    },
+                    "virtual": {
+                        "total": 2023636992
+                    }
+                },
+                "processor": {
+                    "cores": 1,
+                    "frequency": 0.0,
+                    "logical_cores": 1,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.13.0-52-generic",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.9.7"
+            },
+            "system": {
+                "boot_time": 1656012291.0
+            },
+            "usage": {
+                "cpu": 99.0,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 7967555584
+                    },
+                    {
+                        "mountpoint": "/boot/efi",
+                        "used": 6866432
+                    },
+                    {
+                        "mountpoint": "/snap/snapd/18357",
+                        "used": 52297728
+                    },
+                    {
+                        "mountpoint": "/snap/lxd/24483",
+                        "used": 149291008
+                    },
+                    {
+                        "mountpoint": "/snap/core20/1828",
+                        "used": 66453504
+                    },
+                    {
+                        "mountpoint": "/snap/core18/2714",
+                        "used": 58327040
+                    },
+                    {
+                        "mountpoint": "/snap/snapd/18596",
+                        "used": 52297728
+                    },
+                    {
+                        "mountpoint": "/snap/core20/1852",
+                        "used": 66453504
+                    },
+                    {
+                        "mountpoint": "/snap/lxd/24643",
+                        "used": 170917888
+                    },
+                    {
+                        "mountpoint": "/snap/core22/583",
+                        "used": 76546048
+                    },
+                    {
+                        "mountpoint": "/snap/core18/2721",
+                        "used": 58327040
+                    },
+                    {
+                        "mountpoint": "/snap/core22/607",
+                        "used": 76546048
+                    }
+                ],
+                "memory": 31.3,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 22.373767320600017
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0004053529992233962,
+                        "r_10_mb": 0.004312389000915573,
+                        "r_100_mb": 0.04006644599940046,
+                        "r_1000_mb": 0.39748682000026747
+                    },
+                    "write": {
+                        "w_1_mb": 0.01187804000073811,
+                        "w_10_mb": 0.11631360000137647,
+                        "w_100_mb": 1.2744930530006968,
+                        "w_1000_mb": 12.908684001999063
+                    }
+                }
+            },
+            "computer": "16a49f9d-e063-4bb7-aade-93ce34640b19",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sda3",
+                        "total": 486008725504
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/snapd/17336",
+                        "name": "/dev/loop0",
+                        "total": 50331648
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/lxd/23680",
+                        "name": "/dev/loop2",
+                        "total": 142344192
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "mountpoint": "/snap/core20/1623",
+                        "name": "/dev/loop1",
+                        "total": 66322432
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 17179865088
+                    },
+                    "virtual": {
+                        "total": 8227790848
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 3700.0,
+                    "logical_cores": 4,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.19.0-38-generic",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.10.7"
+            },
+            "system": {
+                "boot_time": 1681384073.0
+            },
+            "usage": {
+                "cpu": 23.9,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 5263368192
+                    },
+                    {
+                        "mountpoint": "/snap/snapd/17336",
+                        "used": 50331648
+                    },
+                    {
+                        "mountpoint": "/snap/lxd/23680",
+                        "used": 142344192
+                    },
+                    {
+                        "mountpoint": "/snap/core20/1623",
+                        "used": 66322432
+                    }
+                ],
+                "memory": 19.7,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 16.88942315999884
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.000658600009046495,
+                        "r_10_mb": 0.0045897999079898,
+                        "r_100_mb": 0.04777780000586063,
+                        "r_1000_mb": 0.6520644999109209
+                    },
+                    "write": {
+                        "w_1_mb": 0.0033687000395730138,
+                        "w_10_mb": 0.0452435000333935,
+                        "w_100_mb": 0.3274284000508487,
+                        "w_1000_mb": 3.001206299988553
+                    }
+                }
+            },
+            "computer": "6a6bbef4-b3b2-4321-9985-7f50bb3a599b",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 490943279104
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 3635507200
+                    },
+                    "virtual": {
+                        "total": 16969424896
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 2419.0,
+                    "logical_cores": 8,
+                    "name": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.10.4"
+            },
+            "system": {
+                "boot_time": 1680592386.1584816
+            },
+            "usage": {
+                "cpu": 27.1,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 171179327488
+                    }
+                ],
+                "memory": 62.0,
+                "power": "external power",
+                "battery_percent": 100
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 23.426562200000625
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0009621999997762032,
+                        "r_10_mb": 0.009260200000426266,
+                        "r_100_mb": 0.07228089999989606,
+                        "r_1000_mb": 3.028459200002544
+                    },
+                    "write": {
+                        "w_1_mb": 0.008911799999623327,
+                        "w_10_mb": 0.07854519999818876,
+                        "w_100_mb": 0.7397329000013997,
+                        "w_1000_mb": 9.881695199997921
+                    }
+                }
+            },
+            "computer": "f06d4894-969c-492f-824c-88df9f78f28d",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 499233361920
+                    },
+                    {
+                        "fstype": "FAT32",
+                        "mountpoint": "G:\\",
+                        "name": "G:\\",
+                        "total": 16106127360
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 10092843008
+                    },
+                    "virtual": {
+                        "total": 8541077504
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 2501.0,
+                    "logical_cores": 4,
+                    "name": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.11.3"
+            },
+            "system": {
+                "boot_time": 1681455151.6358597
+            },
+            "usage": {
+                "cpu": 48.8,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 469515251712
+                    },
+                    {
+                        "mountpoint": "G:\\",
+                        "used": 0
+                    }
+                ],
+                "memory": 74.7,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 25.505766719999976
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0007072000000789558,
+                        "r_10_mb": 0.006521499999962543,
+                        "r_100_mb": 0.04509829999994963,
+                        "r_1000_mb": 0.4171486999999843
+                    },
+                    "write": {
+                        "w_1_mb": 0.008168399999931353,
+                        "w_10_mb": 0.07865540000000237,
+                        "w_100_mb": 0.8505135000000337,
+                        "w_1000_mb": 7.564985100000058
+                    }
+                }
+            },
+            "computer": "18b7ac12-6182-43ef-9b6a-43aae4f7f706",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 252839981056
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 16642998272
+                    },
+                    "virtual": {
+                        "total": 16442781696
+                    }
+                },
+                "processor": {
+                    "cores": 6,
+                    "frequency": 2301.0,
+                    "logical_cores": 12,
+                    "name": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.11.2"
+            },
+            "system": {
+                "boot_time": 1680761834.279755
+            },
+            "usage": {
+                "cpu": 22.2,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 105148436480
+                    }
+                ],
+                "memory": 48.6,
+                "power": "external power",
+                "battery_percent": 96
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 65.426562200000625
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.1209621999997762032,
+                        "r_10_mb": 0.239260200000426266,
+                        "r_100_mb": 0.50228089999989606,
+                        "r_1000_mb": 12.028459200002544
+                    },
+                    "write": {
+                        "w_1_mb": 0.128911799999623327,
+                        "w_10_mb": 0.27854519999818876,
+                        "w_100_mb": 1.7397329000013997,
+                        "w_1000_mb": 29.881695199997921
+                    }
+                }
+            },
+            "computer": "cfc6c9cb-88b3-4f3b-8b85-5182d698faac",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 499233361920
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "D:\\",
+                        "name": "D:\\",
+                        "total": 16106127360
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "E:\\",
+                        "name": "E:\\",
+                        "total": 16106127360
+                    },
+                    {
+                        "fstype": "FAT32",
+                        "mountpoint": "G:\\",
+                        "name": "G:\\",
+                        "total": 16106127360
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 10092843008
+                    },
+                    "virtual": {
+                        "total": 8541077504
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 2501.0,
+                    "logical_cores": 4,
+                    "name": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.11.3"
+            },
+            "system": {
+                "boot_time": 1681455151.6358597
+            },
+            "usage": {
+                "cpu": 48.8,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 469515251712
+                    },
+                    {
+                        "mountpoint": "D:\\",
+                        "used": 469426951822
+                    },
+                    {
+                        "mountpoint": "E:\\",
+                        "used": 126826951822
+                    },
+                    {
+                        "mountpoint": "G:\\",
+                        "used": 0
+                    }
+                ],
+                "memory": 8.2,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 11.247310440000728
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0005244000058155507,
+                        "r_10_mb": 0.0046498000010615215,
+                        "r_100_mb": 0.044990200010943227,
+                        "r_1000_mb": 0.4321961999958148
+                    },
+                    "write": {
+                        "w_1_mb": 0.005275100003927946,
+                        "w_10_mb": 0.050602000002982095,
+                        "w_100_mb": 0.47880820000136737,
+                        "w_1000_mb": 4.803229299999657
+                    }
+                }
+            },
+            "computer": "5733a27a-ac17-4cce-a249-5ffe4acbe9cf",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 999410364416
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 3087007744
+                    },
+                    "virtual": {
+                        "total": 17079226368
+                    }
+                },
+                "processor": {
+                    "cores": 8,
+                    "frequency": 3801.0,
+                    "logical_cores": 16,
+                    "name": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.11.3"
+            },
+            "system": {
+                "boot_time": 1683151908.801704
+            },
+            "usage": {
+                "cpu": 5.8,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 127756976128
+                    }
+                ],
+                "memory": 46.4,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 22.726941040018573
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0006778999231755733,
+                        "r_10_mb": 0.005251999944448471,
+                        "r_100_mb": 0.048289400059729815,
+                        "r_1000_mb": 0.46044460008852184
+                    },
+                    "write": {
+                        "w_1_mb": 0.014650899916887283,
+                        "w_10_mb": 0.13589769997633994,
+                        "w_100_mb": 1.3019461000803858,
+                        "w_1000_mb": 13.330144700128585
+                    }
+                }
+            },
+            "computer": "d045e1ff-6674-4e3e-a66d-e88d745ed25b",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 126886649856
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "D:\\",
+                        "name": "D:\\",
+                        "total": 512106688512
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "E:\\",
+                        "name": "E:\\",
+                        "total": 500104687616
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 2550136832
+                    },
+                    "virtual": {
+                        "total": 17116340224
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 3301.0,
+                    "logical_cores": 4,
+                    "name": "Intel64 Family 6 Model 94 Stepping 3, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.10.0"
+            },
+            "system": {
+                "boot_time": 1679343064.9478817
+            },
+            "usage": {
+                "cpu": 28.5,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 110150905856
+                    },
+                    {
+                        "mountpoint": "D:\\",
+                        "used": 121537437696
+                    },
+                    {
+                        "mountpoint": "E:\\",
+                        "used": 57022164992
+                    }
+                ],
+                "memory": 42.9,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 26.177329167599975
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0004295409999599542,
+                        "r_10_mb": 0.006849488000000292,
+                        "r_100_mb": 0.05596468599998161,
+                        "r_1000_mb": 0.5359649790000276
+                    },
+                    "write": {
+                        "w_1_mb": 0.16081019699998933,
+                        "w_10_mb": 0.3427560949999702,
+                        "w_100_mb": 3.561527233999982,
+                        "w_1000_mb": 31.350510729999996
+                    }
+                }
+            },
+            "computer": "a914942b-4168-4cd8-a537-7456b4b278a5",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sdb",
+                        "total": 269490393088
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 4294967296
+                    },
+                    "virtual": {
+                        "total": 13350129664
+                    }
+                },
+                "processor": {
+                    "cores": 6,
+                    "frequency": 0.0,
+                    "logical_cores": 12,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.10.16.3-microsoft-standard-WSL2",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.8.10"
+            },
+            "system": {
+                "boot_time": 1680719785.0
+            },
+            "usage": {
+                "cpu": 7.7,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 3311099904
+                    }
+                ],
+                "memory": 2.5,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 18.032194639975206
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0021852999925613403,
+                        "r_10_mb": 0.008001500042155385,
+                        "r_100_mb": 0.07195129990577698,
+                        "r_1000_mb": 0.5391048998571932
+                    },
+                    "write": {
+                        "w_1_mb": 0.00840359996072948,
+                        "w_10_mb": 0.06815399997867644,
+                        "w_100_mb": 0.7657367999199778,
+                        "w_1000_mb": 9.476171999936923
+                    }
+                }
+            },
+            "computer": "e065ae93-7a93-49fb-8fdd-f405bdb08d32",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 491198083072
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 1073741824
+                    },
+                    "virtual": {
+                        "total": 16935899136
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 1498.0,
+                    "logical_cores": 8,
+                    "name": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.10.6"
+            },
+            "system": {
+                "boot_time": 1679317086.4184072
+            },
+            "usage": {
+                "cpu": 12.1,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 412897464320
+                    }
+                ],
+                "memory": 51.4,
+                "power": "battery",
+                "battery_percent": 88
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 18.80664068000624
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0007200000109151006,
+                        "r_10_mb": 0.007625200028996915,
+                        "r_100_mb": 0.060184900008607656,
+                        "r_1000_mb": 0.6518453999888152
+                    },
+                    "write": {
+                        "w_1_mb": 0.004463599994778633,
+                        "w_10_mb": 0.04887860000599176,
+                        "w_100_mb": 0.5255490000126883,
+                        "w_1000_mb": 5.212123100005556
+                    }
+                }
+            },
+            "computer": "a1b7404f-7724-4a10-98da-7e9cbac927e4",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 249233326080
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "G:\\",
+                        "name": "G:\\",
+                        "total": 1000186310656
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 4831838208
+                    },
+                    "virtual": {
+                        "total": 17072504832
+                    }
+                },
+                "processor": {
+                    "cores": 6,
+                    "frequency": 2904.0,
+                    "logical_cores": 12,
+                    "name": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.10.11"
+            },
+            "system": {
+                "boot_time": 1680769750.2454484
+            },
+            "usage": {
+                "cpu": 11.7,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 142524334080
+                    },
+                    {
+                        "mountpoint": "G:\\",
+                        "used": 369509560320
+                    }
+                ],
+                "memory": 41.8,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 23.151477196253836
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0006952600087970495,
+                        "r_10_mb": 0.008096277015283704,
+                        "r_100_mb": 0.0686174079310149,
+                        "r_1000_mb": 0.383418554905802
+                    },
+                    "write": {
+                        "w_1_mb": 0.06364924414083362,
+                        "w_10_mb": 0.4929590409155935,
+                        "w_100_mb": 6.129468220053241,
+                        "w_1000_mb": 71.69577081082389
+                    }
+                }
+            },
+            "computer": "b4030eef-64bf-43b4-8e03-1570d6016174",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sda2",
+                        "total": 491104411648
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 4084199424
+                    },
+                    "virtual": {
+                        "total": 16673841152
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 3700.0,
+                    "logical_cores": 4,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.15.0-67-generic",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.10.6"
+            },
+            "system": {
+                "boot_time": 1678902961.0
+            },
+            "usage": {
+                "cpu": 16.3,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 23484362752
+                    }
+                ],
+                "memory": 8.5,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 21.357665599999997
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0005163999999995283,
+                        "r_10_mb": 0.004547199999999307,
+                        "r_100_mb": 0.03817289999999929,
+                        "r_1000_mb": 0.39623469999999994
+                    },
+                    "write": {
+                        "w_1_mb": 0.005179900000000001,
+                        "w_10_mb": 0.04796669999999999,
+                        "w_100_mb": 0.5448171,
+                        "w_1000_mb": 4.8335885
+                    }
+                }
+            },
+            "computer": "a5cde228-9067-4f75-a63a-15c25fb1e02c",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 248134197248
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "D:\\",
+                        "name": "D:\\",
+                        "total": 2000396742656
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "E:\\",
+                        "name": "E:\\",
+                        "total": 1000186310656
+                    },
+                    {
+                        "fstype": "FAT32",
+                        "mountpoint": "G:\\",
+                        "name": "G:\\",
+                        "total": 16106127360
+                    },
+                    {
+                        "fstype": "FAT32",
+                        "mountpoint": "H:\\",
+                        "name": "H:\\",
+                        "total": 16106127360
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 11811160064
+                    },
+                    "virtual": {
+                        "total": 34289930240
+                    }
+                },
+                "processor": {
+                    "cores": 6,
+                    "frequency": 3696.0,
+                    "logical_cores": 12,
+                    "name": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.9.13"
+            },
+            "system": {
+                "boot_time": 1680673569.3499744
+            },
+            "usage": {
+                "cpu": 6.6,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 204361617408
+                    },
+                    {
+                        "mountpoint": "D:\\",
+                        "used": 1064995373056
+                    },
+                    {
+                        "mountpoint": "E:\\",
+                        "used": 948626845696
+                    },
+                    {
+                        "mountpoint": "G:\\",
+                        "used": 0
+                    },
+                    {
+                        "mountpoint": "H:\\",
+                        "used": 0
+                    }
+                ],
+                "memory": 37.7,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 26.571763977222144
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0053070588037371635,
+                        "r_10_mb": 0.04695542901754379,
+                        "r_100_mb": 0.5327565176412463,
+                        "r_1000_mb": 6.0179753033444285
+                    },
+                    "write": {
+                        "w_1_mb": 0.01386199425905943,
+                        "w_10_mb": 0.12044064980000257,
+                        "w_100_mb": 1.3034681724384427,
+                        "w_1000_mb": 13.574685386382043
+                    }
+                }
+            },
+            "computer": "c9c16bd8-44f4-42fd-8d96-12dc54fa521a",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sda3",
+                        "total": 100635242496
+                    },
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/movies",
+                        "name": "/dev/sdb1",
+                        "total": 3937871601664
+                    },
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/seafile",
+                        "name": "/dev/md0",
+                        "total": 1967712837632
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 21474828288
+                    },
+                    "virtual": {
+                        "total": 8024064000
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 3700.0,
+                    "logical_cores": 4,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.13.0-52-generic",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.9.7"
+            },
+            "system": {
+                "boot_time": 1673031691.0
+            },
+            "usage": {
+                "cpu": 41.6,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 52248223744
+                    },
+                    {
+                        "mountpoint": "/movies",
+                        "used": 2907008086016
+                    },
+                    {
+                        "mountpoint": "/seafile",
+                        "used": 1034108055552
+                    }
+                ],
+                "memory": 69.5,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 78.43545314744115
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.001828703097999096,
+                        "r_10_mb": 0.022756487131118774,
+                        "r_100_mb": 0.17226845398545265,
+                        "r_1000_mb": 1.5842954311519861
+                    },
+                    "write": {
+                        "w_1_mb": 0.047352069057524204,
+                        "w_10_mb": 0.517159671522677,
+                        "w_100_mb": 5.217801121994853,
+                        "w_1000_mb": 52.48963655065745
+                    }
+                }
+            },
+            "computer": "b66d0e2d-4ace-49a1-94ce-7d31b0d1ef84",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/",
+                        "name": "/dev/sda3",
+                        "total": 974892134400
+                    },
+                    {
+                        "fstype": "ext4",
+                        "mountpoint": "/bareos/disk_1",
+                        "name": "/dev/sdb1",
+                        "total": 3936819662848
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 8589930496
+                    },
+                    "virtual": {
+                        "total": 8204009472
+                    }
+                },
+                "processor": {
+                    "cores": 2,
+                    "frequency": 1500.0,
+                    "logical_cores": 2,
+                    "name": "x86_64"
+                }
+            },
+            "os": {
+                "name": "posix",
+                "release": "5.15.0-60-generic",
+                "system": "Linux"
+            },
+            "python": {
+                "version": "3.10.6"
+            },
+            "system": {
+                "boot_time": 1675930349.0
+            },
+            "usage": {
+                "cpu": 46.4,
+                "disks": [
+                    {
+                        "mountpoint": "/",
+                        "used": 144115204096
+                    },
+                    {
+                        "mountpoint": "/bareos/disk_1",
+                        "used": 1028314574848
+                    }
+                ],
+                "memory": 11.2,
+                "power": "external power",
+                "battery_percent": null
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 30.587213480006902
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0006990000256337225,
+                        "r_10_mb": 0.005427399999462068,
+                        "r_100_mb": 0.051516200008336455,
+                        "r_1000_mb": 0.4934903999674134
+                    },
+                    "write": {
+                        "w_1_mb": 0.012867799960076809,
+                        "w_10_mb": 0.12571210000896826,
+                        "w_100_mb": 1.0763829000061378,
+                        "w_1000_mb": 11.848829500027932
+                    }
+                }
+            },
+            "computer": "e32511f7-cf54-4ab6-8e4f-168ded351019",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 255069253632
+                    },
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "D:\\",
+                        "name": "D:\\",
+                        "total": 1000202039296
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 1073741824
+                    },
+                    "virtual": {
+                        "total": 17019658240
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 1800.0,
+                    "logical_cores": 8,
+                    "name": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "10",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.10.6"
+            },
+            "system": {
+                "boot_time": 1680448127.4193797
+            },
+            "usage": {
+                "cpu": 16.4,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 120606699520
+                    },
+                    {
+                        "mountpoint": "D:\\",
+                        "used": 177459187712
+                    }
+                ],
+                "memory": 37.5,
+                "power": "external power",
+                "battery_percent": 76
+            }
+        },
+        {
+            "benchmark": {
+                "cpu": {
+                    "duration": 13.665628759982065
+                },
+                "disk": {
+                    "read": {
+                        "r_1_mb": 0.0006592001300305128,
+                        "r_10_mb": 0.003927299985662103,
+                        "r_100_mb": 0.04400700004771352,
+                        "r_1000_mb": 0.4473853998351842
+                    },
+                    "write": {
+                        "w_1_mb": 0.003558899974450469,
+                        "w_10_mb": 0.03597029997035861,
+                        "w_100_mb": 0.3215505999978632,
+                        "w_1000_mb": 2.822858300060034
+                    }
+                }
+            },
+            "computer": "ece587da-3ff4-4eec-bfe2-2893bddbc82c",
+            "materials": {
+                "disks": [
+                    {
+                        "fstype": "NTFS",
+                        "mountpoint": "C:\\",
+                        "name": "C:\\",
+                        "total": 510745636864
+                    }
+                ],
+                "memory": {
+                    "swap": {
+                        "total": 3087007744
+                    },
+                    "virtual": {
+                        "total": 16948453376
+                    }
+                },
+                "processor": {
+                    "cores": 4,
+                    "frequency": 2496.0,
+                    "logical_cores": 8,
+                    "name": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel"
+                }
+            },
+            "os": {
+                "name": "nt",
+                "release": "11",
+                "system": "Windows"
+            },
+            "python": {
+                "version": "3.12.0"
+            },
+            "system": {
+                "boot_time": 1697219815.855857
+            },
+            "usage": {
+                "cpu": 12.9,
+                "disks": [
+                    {
+                        "mountpoint": "C:\\",
+                        "used": 87118524416
+                    }
+                ],
+                "memory": 54.3,
+                "power": "external power",
+                "battery_percent": 30
+            }
+        }
+    ]
+}

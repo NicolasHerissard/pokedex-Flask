@@ -1,0 +1,28 @@
+{% include 'header.jinja' %}
+
+{% extends 'layout.jinja' %}
+
+{% block content %}
+    <div class="list">
+        <div class="search">
+            <label>{{ _('INDEX_SEARCH_LABEL') }}</label>
+            <input id="input-pokemon" type="text" name="search" placeholder="{{ _('INDEX_PLACEHOLDER_LABEL') }}">
+            <select class="filter-type" name="" id="">
+                <option value="Aucun">Aucun</option>
+            </select>
+        </div>
+
+        <div class="pokemons">
+            {% for pokemon in pokemons %}
+            <input class="pokemon-value" value="{{pokemon.id}}" hidden>
+            <div class="pokemon" onclick="window.location.href='/pokemon/{{pokemon.id}}'">
+                <input class="id" value="{{pokemon.id}}" hidden>
+                <h1>{{ pokemon.name[request.args.get('lang', 'fr')] }}</h1>
+                <img src="/pokemons/image/{{pokemon.id}}" alt="">
+                <p class="type" hidden></p>
+                <p class="type-secondary" hidden></p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
