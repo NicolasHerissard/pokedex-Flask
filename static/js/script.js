@@ -154,7 +154,6 @@ async function getPokemonsTypes() {
             }
         })
     })
-
 }
 
 async function getPokemonsEnglishTypes() {

@@ -4,6 +4,7 @@ from http import HTTPStatus
 
 api = Blueprint('api', __name__)
 
+# Route de récupération des statistiques d'un pokemon
 @api.route('/pokemons/<int:id>')
 def apiPokemon(id):
     try: 
