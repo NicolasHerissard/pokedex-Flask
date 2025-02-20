@@ -12,6 +12,7 @@ from api.api import api
 from assets import register_assets
 from http import HTTPStatus
 
+
 LANGUAGES = {
     'en': 'English',
     'fr': 'Français',
@@ -80,19 +81,16 @@ except:
 @app.route('/')
 def index():
     cached_data = redis_cn.get('data')
-    try:
-        # Si le cache est vide, on récupère les données venant du cache
-        if cached_data:
-            pokemons = json.loads(cached_data)
-            return render_template('index.jinja', pokemons=pokemons), HTTPStatus.OK
+    # Si le cache est vide, on récupère les données venant du cache
+    if cached_data:
+        pokemons = json.loads(cached_data)
+        return render_template('index.jinja', pokemons=pokemons), HTTPStatus.OK
         # Sinon, on récupère les données depuis l'api
-        else:
-            response = get('https://studies.delpech.info/api/pokemons/dataset/json')
-            pokemons = pokemons_shema.load(response.json())
-            redis_cn.set('data', json.dumps(pokemons), ex=600)
-            return render_template('index.jinja', pokemons=pokemons), HTTPStatus.OK
-    except: 
-        return {'error': 'All pokemon not found'}, HTTPStatus.NOT_FOUND
+    else:
+        response = get('https://studies.delpech.info/api/pokemons/dataset/json')
+        pokemons = pokemons_shema.load(response.json())
+        redis_cn.set('data', json.dumps(pokemons), ex=600)
+        return render_template('index.jinja', pokemons=pokemons), HTTPStatus.OK
     
 # Route de l'image d'un pokemon
 @app.route('/pokemons/image/<int:id>')

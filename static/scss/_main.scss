@@ -1,0 +1,127 @@
+body {
+    background: url('../pokemon.gif') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.language {
+    a {
+        img {
+            height: 30px;
+            width: 50px;
+            cursor: pointer;
+        }
+    }
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(153, 149, 149, 0.5);
+    border-radius: 2rem;
+}
+
+.search {
+    label {
+        color: white;
+    }
+}
+
+.filter-type {
+    font-size: 15px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.search {
+    input {
+        font-size: 1.5rem;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 10px;
+    }
+}
+
+.pokemons {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 5rem;
+}
+
+@media (max-width: 1200px) {
+    .pokemons {
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 1000px) {
+    .pokemons {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .pokemons {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
+.pokemons {
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 1rem;
+        margin: 2rem;
+        border-radius: 1rem;
+        background-color: #FFFFFF;
+        height: 230px;
+        width: 200px;
+    }
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pokemon:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
